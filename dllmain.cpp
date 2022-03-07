@@ -1,3 +1,25 @@
+
+/*Dumpbin /exports d3d12.dll:
+104    0 00004910 D3D12CoreCreateLayeredDevice
+105    1 000048D0 D3D12CoreGetLayeredDeviceSize
+106    2 000047E0 D3D12CoreRegisterLayers
+101    3 00006AF0 D3D12CreateDevice
+107    4 00010150 D3D12CreateRootSignatureDeserializer
+108    5 000101B0 D3D12CreateVersionedRootSignatureDeserializer
+109    6 00019218 D3D12DeviceRemovedExtendedData
+110    7 00010210 D3D12EnableExperimentalFeatures
+102    8 00010270 D3D12GetDebugInterface
+111    9 00008F40 D3D12GetInterface
+112    A 00010940 D3D12PIXEventsReplaceBlock
+113    B 00010950 D3D12PIXGetThreadInfo
+114    C 00010960 D3D12PIXNotifyWakeFromFenceSignal
+115    D 00010990 D3D12PIXReportCounter
+116    E 000102B0 D3D12SerializeRootSignature
+117    F 00010310 D3D12SerializeVersionedRootSignature
+100   10 00006ED0 GetBehaviorValue
+103   11 0000FF40 SetAppCompatStringPointer
+*/
+
 #include <Windows.h>
 #include <stdio.h>
 #include <d3d12.h>
